@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body onload="initClock()">
+    <div class="first-background" style="background-color: black;">
+
+    
+    <div class="dropdown10">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:100px;margin-top: 20px;border: 1px solid;">Login</button>
+        <div id="id01" class="modal">
+          
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+        <li><button style="width: 100px;height: 25px;">Sign Up</button></li>
+    
+         <div class="dropdown14">
+            <a class="dropbtn" style="font-weight: 500;color: white;">More
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-content14">
+              
+              <a href="#" style="font-size: 15px; width: 250px;">Notification Preferences <i class="fa fa-bell" style="margin-top: -20px;color: olive;font-size: 20px;"></i></a>
+              <a href="#" style="font-size: 15px;">Sell on Shoppingcart <i class="fa fa-briefcase" style="color: olive;font-size: 20px;"></i></a>
+              <a href="#" style="font-size: 15px;">24x7 Customer Care <i class="fa fa-question-circle" style="color: olive;font-size: 20px;"></i></a>
+              <a href="#" style="font-size: 15px;">Advertise <i class="fa fa-audio-description" style="color: olive;font-size: 20px;"></i></i></a>
+              <a href="#" style="font-size: 15px;">Download App <i class="fa fa-download" style="color: olive;font-size: 20px;"></i></a>
+            </div>
+          </div> 
+    </div>
+</div>
+    <h4 style="margin-left: 200px;font-weight: 700; margin-top: -42px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: white;letter-spacing: 1px;">Free shipping, 30-day return or refund guarantee.</h4>
+    <div class="five-background">
+  <div class="Navbar">
+      <h1>ShoppingKart</h1>
+         <a href="#">Home</a>
+         <a href="#">Shop</a>
+         <div class="dropdown">
+            <a href="#">Pages</a>
+            <div class="dropdown-content">
+                <a href="#">About Us</a>
+                <a href="#">Shop Details</a>
+                <a href="#">Shopping Cart</a>
+                <a href="#">Cheak Out</a>
+                <a href="#">Blog Details</a>
+            </div>
+         </div>
+         <a href="#">Blog</a>
+         <a href="#">Contact Us</a>
+         <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search" style="height: 20px;width: 200px;">
+              <button type="submit"><i class="fa fa-search" style="width: 50px;"></i></button>
+            </form>
+          </div>
+       <div class="click-content">
+        <a href="#"><i class="glyphicon glyphicon-heart-empty" style="font-size: 18px;"></i></a>
+        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        <a href="#"><span4>Cart</span4></a>
+       </div>
+  </div>
+</body>
+</br>
+</br>
+</br>
+</br>
+</br>
+   <div class="icon-content">
+         <li><img src="image/1010.png" alt=""></li>
+         <li><img src="image/1011.png" alt=""></li>
+         <li><img src="image/1012.png" alt=""></li>
+         <li><img src="image/1013.png" alt=""></li>
+         <li><img src="image/1014.png" alt=""></li>
+         <li><img src="image/1015.png" alt=""></li>
+         <li><img src="image/1016.png" alt=""></li>
+   </div>
+   <div class="dropdown1">
+    <a class="dropbtn">Top Offers
+      <!-- <i class="fa fa-caret-down"></i> -->
+    </a>
+    <!-- <div class="dropdown-content1">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div> -->
+  </div> 
+  <div class="dropdown2">
+    <a class="dropbtn">Grocery
+      <!-- <i class="fa fa-caret-down"></i> -->
+    </a>
+    <!-- <div class="dropdown-content1">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div> -->
+  </div> 
+  <div class="dropdown3">
+    <a class="dropbtn">Mobiles
+      <!-- <i class="fa fa-caret-down"></i> -->
+    </a>
+    <!-- <div class="dropdown-content1">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div> -->
+  </div> 
+  <div class="dropdown4">
+    <a class="dropbtn">Fashion
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content4">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+    </div>
+  </div> 
+  <div class="dropdown5">
+    <a class="dropbtn">Electronics
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content5">
+      <a href="#">A.C.</a>
+      <a href="#">Washing Machine</a>
+      <a href="#">Refrigerators</a>
+      <a href="#">Fans</a>
+      <a href="#">Room Heater</a>
+      <a href="#"> LightHolder</a>
+      <a href="#">Chimney</a>
+      <a href="#">Air Cooler</a>
+    </div>
+  </div> 
+  <div class="dropdown6">
+    <a class="dropbtn">Home
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content6">
+      <a href="#">TV</a>
+      <a href="#">Dinning Table Set</a>
+      <a href="#">Sofa Set</a>
+      <a href="#"> Arm Chair</a>
+      <a href="#">Table</a>
+      <a href="#">Shelf</a>
+    </div>
+  </div> 
+
+  <div class="dropdown7">
+    <a class="dropbtn">Appliances
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content7">
+      <a href="#">Home Application</a>
+      <a href="#">Kitchen Application</a>
+      <a href="#">Seasonal Application</a>
+    </div>
+  </div>  
+</div>
+  <div class="level-bacground" style="background-image: url(image/93.jpg);background-size: cover;background-position: right;background-position: top;margin-top: -40px;" >
+  <div class="textformat">
+    <h3>SUMMER COLLECTION</h3>
+    <h1>Fall - Winter</h1>
+    <h2>Collection 2030</h2>
+    <p>A Speacialist label creating luxury essential.Ethically crafted<br/> with an unwavering commitment to exceptional qeality.</p>
+    <button>SHOP NOW </button>
+    <br/>
+  <a href="#"><i1 class="fa fa-facebook"></i1></a>
+  <a href="#"><i2 class="fa fa-twitter"></i2></a>
+  <a href="#"><i3 class="fa fa-pinterest"></i3></a>
+  <a href="#"><i4 class="fa fa-instagram"></i4></a>
+</div>
+</div>
+</div>
+</div>
+<div class="Property">
+    <img src="image/4.jpg"/>
+    <h1>Clothing<br/> Collection 2030</h1>
+    <div class="skills">
+        <div class="skill">
+            <div class="skill-name"><a href="#Home">SHOP NOW</a></div>
+            <div class="skill-bar">
+            <div class="skill-per" per = "100"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Property1">
+    <img src="image/2.jpg"/>
+    <h1>Accessories</h1>
+    <div class="skills1">
+    <div class="skill-name1"><a href="#Home">SHOP NOW</a></div>
+    <div class="skills-bar1">
+        <div class="skill-per1" per = "100"></div>
+    </div>
+    </div>
+</div>
+<div class="Property2">
+    <img src="image/3.jpg"/>
+    <h1>Shoes Spring<br/> 2030</h1>
+    <div class="skill2">
+    <div class="skill-name2"><a href="#">SHOP NOW</a></div>
+    <div class="skill-bar2">
+    <div class="skill-per2" per = "100"></div>
+    </div>
+    </div>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Best Sellers')">Best Sellers</button>
+        <button class="tablinks" onclick="openCity(event, 'New Arrivals')"> New Arrivals</button>
+        <button class="tablinks" onclick="openCity(event, 'Hot Sales')"> Hot Sales</button>
+      </div>
+      <div id = "Best Sellers" class = "image1" style="display: none;">
+        <img src="image/11.jpg"></img>
+        <img src="image/12.jpg"></img>
+        <img src="image/13.jpg"></img> 
+        <div class="product__item__text1"> 
+            <h6>Shoes For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>899</h5>
+          </div>
+          <div class="product__item__text2">
+            <h6>Shoes For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>499</h5>
+          </div>
+          <div class="product__item__text3">
+            <h6>TUFH <br/>
+                Brown Men Sling Bag </h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>699</h5>
+          </div>
+          <div class="image2">
+            <img src="image/25.jpeg"></img>
+            <img src="image/203.jpg"></img>
+             <img src="image/206.jpg"></img>
+         </div>
+         <div class="product__item__text8">
+            <h6>Boat Earphone</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>1,299</h5>
+          </div> 
+          <div class="product__item__text9">
+            <h6>Boat Hand Watch</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>2,500</h5> 
+          </div>  
+          <div class="product__item__text10">
+            <h6>Piqué Biker Jacket</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>899</h5>
+          </div> 
+          </div>
+          <div id="New Arrivals" class="image1" style="display: none;">
+            <img src="image/101.jpg"></img>
+            <img src="image/105.jpeg"></img>
+             <img src="image/505.jpeg"></img>
+             <div class="product__item__text8">
+                <h6>Boat HeadPhone</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>1,700</h5>
+              </div> 
+              <div class="product__item__text9">
+                <h6>Shoes Stand</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>799</h5> 
+              </div>  
+              <div class="product__item__text10">
+                <h6>Nova Trimmer</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>1,299</h5>
+              </div> 
+              <div class="product__item__text11">
+                <img src="image/262.jpeg"></img>
+                <img src="image/261.jpeg"></img>
+                 <img src="image/263.jpeg"></img>
+                 <div class="product__item__text8" style="margin-top: -30px;">
+                    <h6>z Laptop Mouse</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>15,599</h5>
+                  </div> 
+              </div>
+              <div class="product__item__text9" style="margin-left: 670px;">
+                <h6>Savlon Mak</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>499</h5> 
+              </div>
+              <div class="product__item__text10" style="margin-top: -50px;">
+                <h6>Tourist Bag</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>1,399</h5>
+              </div>   
+            </div>
+            <div id = "Hot Sales" class = "image1"  style="display: none;">
+                <img src="image/701.jpeg"></img>
+                <img src="image/702.jpeg"></img>
+                 <img src="image/703.jpeg"></img>
+                 <div class="product__item__text8" style="margin-top: 60px;">
+                    <h6>Indection Cooktop</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>13,499</h5>
+                  </div> 
+                  <div class="product__item__text9" style="margin-top: -150px;">
+                    <h6>Kent Maker</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>4,599</h5> 
+                  </div>  
+                  <div class="product__item__text10" style="margin-top: -110px;">
+                    <h6>Office Chair</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>3,899</h5>
+                  </div> 
+                  <div class="product__item__text12">
+                    <img src="image/704.jpeg"></img>
+                    <img src="image/705.jpeg"></img>
+                     <img src="image/706.jpeg"></img>
+                </div>
+                <div class="product__item__text8" style="margin-top: -50px;">
+                    <h6>Tabla Music Instrument</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>3,799</h5>
+                  </div> 
+                  <div class="product__item__text9">
+                    <h6>Kettle</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>999</h5> 
+                  </div>  
+                  <div class="product__item__text10" style="margin-top: -30px;">
+                    <h6>Mobile Stand</h6>
+                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <div class="rating">
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    </div>
+                    <i class="fa fa-rupee"></i><h5>399</h5>
+                  </div> 
+                </div> 
+                </div> 
+                <div class="images1">
+                    <img src="image/801.jpeg"></img>
+                      <img src="image/802.jpeg"></img>
+                      <img src="image/804.jpeg"></img>
+                      <div class="product__item__text8" style="margin-top: -20px;">
+                        <h6>Realme 80 cm</h6>
+                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <div class="rating">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                        <i class="fa fa-rupee"></i> <h5>48,999</h5>
+                      </div> 
+                      <div class="product__item__text9" style="margin-top: -40px;">
+                        <h6>Badminton Racquet</h6>
+                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <div class="rating">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                        <i class="fa fa-rupee"></i><h5>279</h5> 
+                      </div>  
+                      <div class="product__item__text10" style="margin-top: -110px;">
+                        <h6>King Decore god stage temple</h6>
+                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <div class="rating">
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        </div>
+                        <i class="fa fa-rupee"></i><h5>16,599</h5>
+                      </div> 
+                    </div>
+                    <div class="images2">
+                        <img src="image/805.jpeg"></img>
+                        <img src="image/808.jpeg"></img>
+                        <img src="image/809.jpeg"></img>
+                        <div class="product__item__text8">
+                            <h6 style="margin-top: 80px;">VBegitable Bucket</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                            <i class="fa fa-rupee"></i> <h5>899</h5>
+                          </div> 
+                          <div class="product__item__text9" style="margin-top: -140px;">
+                            <h6 style="margin-top: -60px;">Key And Teddy Gift</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                            <i class="fa fa-rupee"></i><h5>299</h5> 
+                          </div>  
+                          <div class="product__item__text10" style="margin-top: -110px;">
+                            <h6>Aquaguard</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                            <i class="fa fa-rupee"></i><h5>10,999</h5>
+                          </div> 
+                      </div>
+                      <div class="images3">
+                        <img src="image/901.jpeg"></img>
+                        <img src="image/902.jpeg"></img>
+                        <img src="image/903.jpeg"></img>
+                        <div class="product__item__text8" style="margin-top: -30px;">
+                            <h6> ASUS Laptop</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                            <i class="fa fa-rupee"></i><h5>26,000</h5>
+                          </div> 
+                          <div class="product__item__text9">
+                            <h6>Home Treater</h6>
+                            <a href="#" class="add-cart">+ Add To Cart</a>
+                            <div class="rating">
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                            </div>
+                            <i class="fa fa-rupee"></i><h5>15,899</h5> 
+                          </div>  
+                          <div class="product__item__text10" style="margin-top: -60px;">
+            <h6>Blood Pressure Monitor</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>12,599</h5>
+          </div> 
+      </div>
+      <div class="images4">
+        <img src="image/401.jpeg"></img>
+        <img src="image/402.jpeg"></img>
+        <img src="image/403.jpeg"></img>
+        <div class="product__item__text8" style="margin-top: -20px;">
+            <h6>Jeans Shirt For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>899</h5>
+          </div> 
+          <div class="product__item__text91" style="margin-left: 650px;">
+            <h6>Former Shirt For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>599</h5> 
+          </div>  
+          <div class="product__item__text92">
+            <h6>Blazer For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>2,500</h5> 
+          </div> 
+        </div> 
+        <div class="images5">
+            <img src="image/111.jpeg"></img>
+            <img src="image/112.jpeg"></img>
+            <img src="image/113.jpeg"></img>
+            <div class="product__item__text81">
+                <h6>Jeans For Men</h6>
+                <a href="#" class="add-cart">+ Add To Cart</a>
+                <div class="rating">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                </div>
+                <i class="fa fa-rupee"></i><h5>799</h5>
+              </div> 
+              <div class="product__item__text93">
+            <h6>Jeans For Men</h6>
+            <a href="#" class="add-cart">+ Add To Cart</a>
+            <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+            <i class="fa fa-rupee"></i><h5>1,000</h5> 
+          </div>  
+          <div class="product__item__text94">
+        <h6>Jeans For Men</h6>
+        <a href="#" class="add-cart">+ Add To Cart</a>
+        <div class="rating">
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+        </div>
+        <i class="fa fa-rupee"></i><h5>1,199</h5> 
+      </div>  
+        </div> 
+        <div class="full-container">
+            <li><a1 href="#"><img src="image/80.jpg"></img></a></li>
+                <h1>Clothings Hot</h1>
+                <br/>
+                <h2>Shoe Collection</h2>
+                <br/>
+                <h3>Accessories</h3>
+                <p>DEAL OF THE WEEK</p>
+                <p5>Multi-pocket Chest</p5>
+                <br/>
+                <p6>Bag Black</p6> 
+           </div>
+          <div class="Price">
+            <h5>Sale Of</h5>
+            <h6>$29.99</h6>
+            <i class="fa fa-circle-thin"></i>
+        </div>
+         
+           <div class="datetime">
+              <div class="date">
+                <span id="dayname">Day</span>,
+                <span id="month">Month</span>
+                <span id="daynum">00</span>.
+                <span id="year">Year</span>
+              </div>
+              <div class="time">
+              <span id="hour">00</span>:
+              <span id="minutes">00</span>:
+              <span id="seconds">00</span>
+              <span id="period">AM</span>
+           </div>
+        </div>
+        <div class="last-button">
+               <button>SHOP NOW</button>
+        </div>
+        <div class="Article">
+            <li><a1 href="#"><img src="image/501.jpeg"></img></a></li>
+            <li><a2 href="#"><img src="image/502.jpeg"></img></a></li>
+            <li><a3 href="#"><img src="image/503.jpeg"></img></a></li>
+        </div>
+        <div class="Article1">
+            <li><a1 href="#"><img src="image/504.jpeg"></img></a></li>
+            <li><a2 href="#"><img src="image/505.jpeg"></img></a></li>
+            <li><a3 href="#"><img src="image/506.jpeg"></img></a></li>
+        </div>
+        <div class="text-component">
+            <h1>Instagram</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod tempor incididunt ut labore et<br/> dolore magna aliqua.</p>
+            <h2>#Male_Fashion</h2>
+        </div>
+        <div class="design">
+            <h1>LATEST NEWS</h1>
+            <h8>Fashion New Trends</h8>
+        </div>
+        <div class="three-pic">
+            <li><a1 href="#"><img src="image/606.jpg"></img></a></li>
+            <li><a2 href="#"><img src="image/602.jpg"></img></a></li>
+            <li><a3 href="#"><img src="image/609.jpg"></img></a></li>
+        </div> 
+         <div class="drawing" style="margin-left: 77px;">
+           <span ><i class="fa fa-calendar"></i> 16 February 2020</span>
+           <br/>
+           <span2>What Curling Irons Are The</span2>
+            <br/>
+            <span3>Best Ones</span3>
+        </div>
+        <div class="drawing2" style="margin-left: 530px;">
+            <span><i class="fa fa-calendar"></i> 16 February 2020</span>
+            <br/>
+            <span2>What Curling Irons Are The</span2>
+             <br/>
+             <span3>Best Ones</span3>
+         </div>
+         <div class="drawing3" style="margin-left: 1070px;">
+            <span><i class="fa fa-calendar"></i> 16 February 2020</span>
+            <br/>
+            <span2>What Curling Irons Are The</span2>
+             <br/>
+             <span3>Best Ones</span3>
+         </div>
+         <div class="upwritten">
+            <h4 style="font-weight: 800;">Shopping Cart: The One-stop Shopping Destination</h4>
+            <p style="font-size: 12px;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles.Shopping Cart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+          
+              What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Shopping Cart when there are multiple options available to you, well, the below will answer your question.</p>
+           </div>
+           <div class="upwritten1">
+                 <h4 style="font-weight: 800;">Shopping Cart Plus</h4>
+                 <p style="font-size: 12px;">A world of limitless possibilities awaits you - Shopping Cart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Shopping Cart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!</br></br>
+                  What's more, you can even use the Shopping Cart supercoins for a number of exciting services, like:</br>
+                  An annual Zomato Gold membership</br>
+                  An annual Hotstar Premium membership</br>
+                  6 months Gaana plus subscription</br>
+                  Rupees 550 instant discount on flights on ixigo</br>
+                  Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+                    </p>
+           </div>
+           <div class="no_cost">
+              <h4 style="font-weight: 800;">No Cost EMI</h4>
+              <p style="font-size: 12px;">Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Shopping Cart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</p>
+           </div>
+           <div class="exchange">
+              <h4 style="font-weight: 800;">Mobile Exchange Offers</h4>
+              <p style="font-size: 12px;">Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Shopping Cart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</p>
+           </div>
+          </br>
+           </div>
+           <div class="third-bachround" style="background-color: gray; height: 200px;font-weight: 700 ;">
+           <div class="last-component" style="margin-left: 120px;">
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">HELP</a></li>
+                  <li><a href="#">POLICY</a></li>
+                  <li><a href="#">SOCIAL</a></li>
+                  <li><a href="#">Mail Us:</a></li>
+                  <li><a href="#">Registered Office Address:</a></li>
+           </div>
+           <div class="row-component" style="list-style: none; margin-left: 250px; margin-top: 10px;">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Flipkart Stories</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Shoppingkart Wholesale</a></li>
+            <li><a href="#">Corporate Information</a></li>
+           </div>
+           <div class="row-component1" style="margin-left: 440px; margin-top: -140px;list-style: none;">
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Cancellation & Return</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Report Infringement</a></li>
+           </div>
+           <div class="row-component2" style="margin-left: 610px;margin-top: -100px;list-style: none;">
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">EPR Compliance</a></li>
+           </div>
+           <div class="row-component3" style="margin-left: 810px;margin-top: -120px;list-style: none;">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+           </div>
+           <div class="row-component1" style="margin-left: 950px;margin-top: -60px;">
+            <i class="fa fa-envelope"></i> <a href="#">support@shoppingkart24.com</a>
+           </div>
+           <div class="row-component1" style="margin-left: 1200px;margin-top: -20px;">
+              <a href="#">Bialetti Industrie S.p.A., with registered</br> office in Coccaglio (Brescia), Via Fogliano</br> no. 1, Share Capita</a>
+           </div>
+        </div>
+</body>
+</html>
